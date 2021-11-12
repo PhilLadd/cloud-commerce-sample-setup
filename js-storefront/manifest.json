@@ -1,0 +1,16 @@
+{
+    "applications": [
+        {
+            "name": "spartacus-b2b-store",
+            "path": "spartacus-b2b-store",
+            "ssr": {
+                "enabled": true,
+                "path": "dist/spartacus-b2b-store/server/main.js"
+            },
+            "csr": {
+                "webroot": "dist/spartacus-b2b-store/browser/"
+            }
+        }
+    ],
+    "nodeVersion": "14"
+}
